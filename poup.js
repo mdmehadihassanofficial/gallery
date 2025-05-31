@@ -49,7 +49,7 @@ function showCopyMessage(message) {
   const toast = document.createElement('div');
   toast.innerText = message;
   toast.style.position = 'fixed';
-  toast.style.bottom = '30px';
+  toast.style.top = '30px';
   toast.style.left = '50%';
   toast.style.transform = 'translateX(-50%)';
   toast.style.background = '#4caf50';
